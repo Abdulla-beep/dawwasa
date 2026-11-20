@@ -1,0 +1,25 @@
+{
+  "name": "دوّاسة · تراكات الدراجات في الإمارات",
+  "short_name": "دوّاسة",
+  "description": "تراكات الدراجات في الإمارات، الطقس ومؤشر الركوب، تسجيل الركبات، والمجتمع.",
+  "lang": "ar",
+  "dir": "rtl",
+  "start_url": "./#/explore",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#F7F4EE",
+  "theme_color": "#FF5B14",
+  "categories": ["sports", "health", "fitness", "navigation"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "shortcuts": [
+    { "name": "سجّل ركبة", "url": "./#/record" },
+    { "name": "الطوارئ", "url": "./#/sos" },
+    { "name": "الخريطة", "url": "./#/map" }
+  ]
+}
